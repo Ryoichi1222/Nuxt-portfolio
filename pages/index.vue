@@ -32,7 +32,7 @@ div {
 
 .skill {
   height: 200px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(230, 230, 230, 0.767);
   text-align: center;
 }
 </style>
