@@ -31,9 +31,9 @@ body {
 }
 
 header {
-  background-color: #ffcece;
+  background-color: #cefff4;
   color: #080808;
-  padding: 1rem;
+  padding: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
