@@ -31,8 +31,8 @@ body {
 }
 
 header {
-  background-color: #333;
-  color: #fff;
+  background-color: #ffcece;
+  color: #080808;
   padding: 1rem;
   display: flex;
   justify-content: space-between;
