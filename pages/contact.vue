@@ -12,6 +12,7 @@
     </div>
   </template>
   
+  
   <script>
   export default {
     name: 'Contact',
@@ -19,6 +20,7 @@
   </script>
   
   <style scoped>
-  /* Add your styles here */
+  
+
   </style>
   
