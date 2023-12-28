@@ -43,9 +43,10 @@ nav {
   display: flex;
 }
 
-.nuxt-links {
+.nuxt-link {
   display: flex;
   color: #080808;
+  text-decoration: none;
 }
 
 nav nuxt-link {
