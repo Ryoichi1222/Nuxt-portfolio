@@ -1,7 +1,7 @@
 <template>
   <div>
     <header>
-      <h1>My Portfolio</h1>
+      <h1>Ryoichi Portfolio</h1>
       <nav>
         <div class="nav-links">
           <nuxt-link to="/">Home</nuxt-link>
