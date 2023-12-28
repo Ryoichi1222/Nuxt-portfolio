@@ -1,7 +1,13 @@
 <template>
   <div>
-    <h1>Welcome to My Portfolio</h1>
-    <p>This is the home page of my portfolio site.</p>
+    <div class="top-page">
+    <h1>Ryoichi</h1>
+    <p>そこら辺にいる中学生が作ったポートフォリオサイト</p>
+
+    </div>
+    <div class="skill">
+      <h1>SKILL</h1>
+    </div>
     <nuxt-link to="/projects">View Projects</nuxt-link>
     <nuxt-link to="/contact">Contact Me</nuxt-link>
   </div>
@@ -14,5 +20,19 @@ export default {
 </script>
 
 <style scoped>
-/* Add your styles here */
+div {
+
+}
+
+.top-page {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.skill {
+  height: 200px;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+}
 </style>
