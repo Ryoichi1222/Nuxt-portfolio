@@ -13,7 +13,7 @@
       <img src="/Vue.js_Logo.png">
       <img src="/Nuxt_log.png">
       <img src="/Ruby_logo.png">
-      <img src="/rails.logo.png">
+      <img src="">
     </div>
     <nuxt-link to="/projects">View Projects</nuxt-link>
     <nuxt-link to="/contact">Contact Me</nuxt-link>
