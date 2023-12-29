@@ -26,8 +26,8 @@ div {
 
 .top-page {
   text-align: center;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 150px;
+  margin-bottom: 150px;
 }
 
 .skill {
