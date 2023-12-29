@@ -9,6 +9,11 @@
       <h1>SKILL</h1>
       <img src="/HTML-LOGO.png">
       <img src="/CSS-LOGO.png">
+      <img src="/javascript-logo.svg">
+      <img src="/Vue.js_Logo.png">
+      <img src="/Nuxt_log.png">
+      <img src="/Ruby_logo.png">
+      <img src="/rails.logo.png">
     </div>
     <nuxt-link to="/projects">View Projects</nuxt-link>
     <nuxt-link to="/contact">Contact Me</nuxt-link>
