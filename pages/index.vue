@@ -7,6 +7,8 @@
     </div>
     <div class="skill">
       <h1>SKILL</h1>
+      <img src="/HTML-LOGO.png">
+      <img src="/CSS-LOGO.png">
     </div>
     <nuxt-link to="/projects">View Projects</nuxt-link>
     <nuxt-link to="/contact">Contact Me</nuxt-link>
@@ -22,6 +24,11 @@ export default {
 <style scoped>
 div {
 
+}
+
+img {
+  height: 40%;
+  padding-right: 10px;
 }
 
 .top-page {
