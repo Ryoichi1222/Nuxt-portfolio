@@ -6,6 +6,7 @@
     </div>
     <div class="about">
       <h1>About</h1>
+      <p></p>
     </div>
     <div class="skill">
       <h1>SKILL</h1>
@@ -39,11 +40,14 @@ div {
 }
 
 .about {
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 400px;
 }
 
-
+.about h1 {
+  text-align: center;
+  border-bottom: 5px solid #b8e8de;
+  padding: 10px;
+}
 
 .skill {
   height: 400px;
