@@ -3,7 +3,9 @@
     <div class="top-page">
     <h1>Ryoichi</h1>
     <p>そこら辺にいる中学生が作ったポートフォリオサイト</p>
-
+    </div>
+    <div class="about">
+      <h1>About</h1>
     </div>
     <div class="skill">
       <h1>SKILL</h1>
@@ -14,9 +16,6 @@
       <img class="nuxt" src="/Nuxt_log.png">
       <img class="ruby" src="/Ruby_logo.png">
       <img class="rails" src="/Rails_Logo.png">
-    </div>
-    <div class="About">
-
     </div>
     <nuxt-link to="/projects">View Projects</nuxt-link>
     <nuxt-link to="/contact">Contact Me</nuxt-link>
@@ -38,6 +37,13 @@ div {
   margin-top: 170px;
   margin-bottom: 170px;
 }
+
+.about {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+
 
 .skill {
   height: 400px;
@@ -76,9 +82,6 @@ div {
   padding-right: 20px;
 }
 
-.About {
-
-}
 
 
 
