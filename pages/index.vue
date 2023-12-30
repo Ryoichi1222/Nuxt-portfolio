@@ -10,9 +10,13 @@
       <img class="html" src="/HTML-LOGO.png">
       <img class="css" src="/CSS-LOGO.png">
       <img class="javascript" src="/javascript-logo.svg">
+      <br>
       <img class="nuxt" src="/Nuxt_log.png">
       <img class="ruby" src="/Ruby_logo.png">
       <img class="rails" src="/Rails_Logo.png">
+    </div>
+    <div class="About">
+
     </div>
     <nuxt-link to="/projects">View Projects</nuxt-link>
     <nuxt-link to="/contact">Contact Me</nuxt-link>
@@ -29,32 +33,53 @@ export default {
 div {
 
 }
-
-img {
-  height: 40%;
-}
-
-.html {
-  padding-right: 20px;
-}
-
-.css {
-  padding-right: 20px;
-}
-
-.javascript {
-  padding-right: 20px;
-}
-
 .top-page {
   text-align: center;
-  margin-top: 150px;
-  margin-bottom: 150px;
+  margin-top: 170px;
+  margin-bottom: 170px;
 }
 
 .skill {
-  height: 200px;
+  height: 400px;
   background-color: rgba(230, 230, 230, 0.767);
   text-align: center;
 }
+
+.skill h1 {
+  line-height: 70px;
+}
+
+.skill img {
+  height: 30%;
+}
+
+.html {
+  padding-right: 60px;
+}
+
+.css {
+  padding-right: 60px;
+}
+
+.javascript {
+  padding-right: 60px;
+}
+.nuxt {
+  padding-right: 20px;
+}
+
+.ruby {
+  padding-right: 20px;
+}
+
+.rails {
+  padding-right: 20px;
+}
+
+.About {
+
+}
+
+
+
 </style>
