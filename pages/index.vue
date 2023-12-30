@@ -7,7 +7,8 @@
     <div class="about">
       <h1>About</h1>
       <p>Ryoichi</p>
-      <p>中学校１年の時にプログラミングを勉強してきた。</p>
+      <p>中学校１年の時に始めてプログラミングを学んだ。</p>
+      <p>趣味はゲームをしたり、アニメを見たり、Vtuberを見たりする事です。</p>
     </div>
     <div class="skill">
       <h1>SKILL</h1>
