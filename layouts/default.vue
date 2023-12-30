@@ -42,11 +42,13 @@ header {
 header a {
     text-decoration: none; /* 下線を非表示にする */
     color: #333; /* リンクの色を指定 */
-    margin-right: 15px; /* リンク間の余白を調整 */
+    margin-right: 40px; /* リンク間の余白を調整 */
+    line-height: 40px;
   }
 
   header a:hover {
-    background-color: #007bff; /* ホバー時のリンクの色を指定 */
+    background-color: #fff;
+    letter-spacing: 0.15em;
   }
 
 
