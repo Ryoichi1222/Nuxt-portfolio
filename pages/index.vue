@@ -7,13 +7,12 @@
     </div>
     <div class="skill">
       <h1>SKILL</h1>
-      <img src="/HTML-LOGO.png">
-      <img src="/CSS-LOGO.png">
-      <img src="/javascript-logo.svg">
-      <img src="/Vue.js_Logo.png">
-      <img src="/Nuxt_log.png">
-      <img src="/Ruby_logo.png">
-      <img src="">
+      <img class="html" src="/HTML-LOGO.png">
+      <img class="css" src="/CSS-LOGO.png">
+      <img class="javascript" src="/javascript-logo.svg">
+      <img class="nuxt" src="/Nuxt_log.png">
+      <img class="ruby" src="/Ruby_logo.png">
+      <img class="rails" src="/Rails_Logo.png">
     </div>
     <nuxt-link to="/projects">View Projects</nuxt-link>
     <nuxt-link to="/contact">Contact Me</nuxt-link>
@@ -33,7 +32,18 @@ div {
 
 img {
   height: 40%;
-  padding-right: 10px;
+}
+
+.html {
+  padding-right: 20px;
+}
+
+.css {
+  padding-right: 20px;
+}
+
+.javascript {
+  padding-right: 20px;
 }
 
 .top-page {
