@@ -39,21 +39,17 @@ header {
   align-items: center;
 }
 
-nav {
-  display: flex;
-}
+header a {
+    text-decoration: none; /* 下線を非表示にする */
+    color: #333; /* リンクの色を指定 */
+    margin-right: 15px; /* リンク間の余白を調整 */
+  }
 
-.nuxt-link {
-  display: flex;
-  color: #080808;
-  text-decoration: none;
-}
+  header a:hover {
+    background-color: #007bff; /* ホバー時のリンクの色を指定 */
+  }
 
-nav nuxt-link {
-  margin-right: 10rem;
-  color: rgb(240, 237, 237);
-  text-decoration: none;
-}
+
 
 main {
   padding: 1rem;
