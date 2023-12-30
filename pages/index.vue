@@ -6,7 +6,8 @@
     </div>
     <div class="about">
       <h1>About</h1>
-      <p></p>
+      <p>Ryoichi</p>
+      <p>中学校１年の時にプログラミングを勉強してきた。</p>
     </div>
     <div class="skill">
       <h1>SKILL</h1>
