@@ -40,18 +40,33 @@ header {
 }
 
 header a {
-    text-decoration: none; /* 下線を非表示にする */
-    color: #333; /* リンクの色を指定 */
-    margin-right: 40px; /* リンク間の余白を調整 */
-    line-height: 40px;
+    padding:10px 30px;
+    text-decoration: none;
+    color: #333;
+    position: relative;
+
   }
 
   header a:hover {
-    background-color: #fff;
-    letter-spacing: 0.15em;
+    color:#0481A2;
   }
 
+  header a::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    width: 80%;
+    height: 2px;
+    background:#0481A2;
+    transition: all .3s;
+    transform: scale(0, 1);
+    transform-origin: center top;
+  }
 
+  header a:hover::after{
+    transform: scale(1, 1);
+  }
 
 main {
   padding: 1rem;
