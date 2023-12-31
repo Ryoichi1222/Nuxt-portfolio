@@ -6,9 +6,14 @@
     </div>
     <div class="about">
       <h1>About</h1>
-      <p>Ryoichi</p>
-      <p>中学校１年の時に始めてプログラミングを学んだ。</p>
-      <p>趣味はゲームをしたり、アニメを見たりする事です。</p>
+      <div class="explanation">
+        <img src="/Profile.png">
+          <div class="right">  
+            <p>Ryoichi</p>
+            <p class="title">中学校１年の時に始めてプログラミングを学んだ。</p>
+            <p class="text">趣味はゲームをしたり、アニメを見たりする事です。</p>
+          </div>  
+      </div>
     </div>
     <div class="skill">
       <h1>SKILL</h1>
@@ -49,6 +54,35 @@ div {
   text-align: center;
   border-bottom: 5px solid #b8e8de;
   padding: 10px;
+}
+
+.explanation {
+  display: flex;
+}
+
+.explanation img {
+  width: 10%; /*画像サイズ指定*/
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.explanation .right {
+  margin: 0 0 0 20px;
+  padding: 0;
+}
+
+.explanation .title{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.explanation .text {
+  margin: 10px 0 0;
+  padding: 0;
 }
 
 .skill {
