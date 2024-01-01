@@ -12,6 +12,7 @@
             <p class="title">Ryoichi</p>
             <p class="text">中学校１年の時に始めてプログラミングを学んだ。</p>
             <p class="text">趣味はゲームをしたり、アニメを見たりする事です。</p>
+            <p class="text">プロフィールの写真は修学旅行で撮った写真でお気に入りです。</p>
           </div>  
       </div>
     </div>
@@ -59,21 +60,22 @@ div {
 .explanation {
   display: flex;
   padding-top: 100px;
-  
 }
 
 .explanation img {
-  width: 10%; /*画像サイズ指定*/
+  width: 20%; /*画像サイズ指定*/
   margin: 0;
   padding: 0;
   border-radius: 50%;
   overflow: hidden;
   position: relative;
+  left: 300px;
 }
 
 .explanation .right {
-  margin: 0 0 0 20px;
+  margin: 0 0 0 500px;
   padding: 0;
+
 }
 
 .explanation .title{
