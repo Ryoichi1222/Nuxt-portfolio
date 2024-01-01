@@ -13,6 +13,7 @@
             <p class="text">中学校１年の時に始めてプログラミングを学んだ。</p>
             <p class="text">趣味はゲームをしたり、アニメを見たりする事です。</p>
             <p class="text">プロフィールの写真は修学旅行で撮った写真でお気に入りです。</p>
+            <a href="https://twitter.com/Ryo211222">Twitter</a>
           </div>  
       </div>
     </div>
