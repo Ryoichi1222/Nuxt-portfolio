@@ -9,8 +9,8 @@
       <div class="explanation">
         <img src="/Profile.png">
           <div class="right">  
-            <p>Ryoichi</p>
-            <p class="title">中学校１年の時に始めてプログラミングを学んだ。</p>
+            <p class="title">Ryoichi</p>
+            <p class="text">中学校１年の時に始めてプログラミングを学んだ。</p>
             <p class="text">趣味はゲームをしたり、アニメを見たりする事です。</p>
           </div>  
       </div>
@@ -58,12 +58,15 @@ div {
 
 .explanation {
   display: flex;
+  padding-top: 100px;
+  
 }
 
 .explanation img {
   width: 10%; /*画像サイズ指定*/
   margin: 0;
   padding: 0;
+  border-radius: 50%;
   overflow: hidden;
   position: relative;
 }
