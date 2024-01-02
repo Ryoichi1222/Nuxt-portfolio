@@ -7,14 +7,18 @@
     <div class="about">
       <h1>About</h1>
       <div class="explanation">
-        <img src="/Profile.png">
+        <img class="profile-img" src="/Profile.png">
           <div class="right">  
             <p class="title">Ryoichi</p>
             <p class="text">中学校１年の時に始めてプログラミングを学んだ。</p>
             <p class="text">趣味はゲームをしたり、アニメを見たりする事です。</p>
             <p class="text">プロフィールの写真は修学旅行で撮った写真でお気に入りです。</p>
-            <a href="https://twitter.com/Ryo211222">Twitter</a>
-            <a href="https://github.com/RyoichiKami">Github</a>
+            <p class="text">「僕のSNSリンク」</p>
+            <div class="sns-icon">
+            <a href="https://twitter.com/Ryo211222"><img class="x-icon" src="/X-icon.png"></a>
+            <a href="https://github.com/RyoichiKami"><img class="github-icon" src="/github-mark.png"></a>
+            <a href="https://discord.gg/cv6bKDyV"><img class="discord-icon" src="/Discord-icon.png"></a>
+          </div>
           </div>  
       </div>
     </div>
@@ -47,7 +51,7 @@ export default {
 }
 
 .about {
-  margin-bottom: 400px;
+  margin-bottom: 100px;
 }
 
 .about h1 {
@@ -61,7 +65,7 @@ export default {
   padding-top: 100px;
 }
 
-.explanation img {
+.explanation .profile-img {
   width: 20%; /*画像サイズ指定*/
   margin: 0;
   padding: 0;
@@ -74,7 +78,6 @@ export default {
 .explanation .right {
   margin: 0 0 0 500px;
   padding: 0;
-
 }
 
 .explanation .title{
@@ -89,9 +92,35 @@ export default {
   padding: 0;
 }
 
+.sns-icon {
+  padding-top: 15px;
+  position: relative;
+}
+.x-icon {
+  width: 9%; /*画像サイズ指定*/
+  margin: 0;
+  padding: 0;
+}
+
+.github-icon {
+  width: 7%; /*画像サイズ指定*/
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+  position: relative;
+  left: 10px;
+}
+
+.discord-icon {
+  width: 9%; /*画像サイズ指定*/
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 30px;
+}
+
 .skill {
   height: 400px;
-  background-color: rgba(230, 230, 230, 0.767);
   text-align: center;
 }
 
