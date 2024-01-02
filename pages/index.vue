@@ -14,6 +14,7 @@
             <p class="text">趣味はゲームをしたり、アニメを見たりする事です。</p>
             <p class="text">プロフィールの写真は修学旅行で撮った写真でお気に入りです。</p>
             <a href="https://twitter.com/Ryo211222">Twitter</a>
+            <a href="https://github.com/RyoichiKami">Github</a>
           </div>  
       </div>
     </div>
@@ -39,10 +40,7 @@ export default {
 </script>
 
 <style scoped>
-div {
-
-}
-.top-page {
+.top-page { 
   text-align: center;
   margin-top: 170px;
   margin-bottom: 170px;
