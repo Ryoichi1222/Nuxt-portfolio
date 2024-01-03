@@ -122,7 +122,7 @@ export default {
 }
 
 .skill {
-  margin-bottom: 400px;
+  margin-bottom: 50px;
 }
 
 .skill h1 {
