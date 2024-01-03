@@ -31,6 +31,9 @@
       <p>GoやTypeScriptも習いたいです。</p>
       </div>
     </div>
+    <div class="project">
+      <h1>Project</h1>
+    </div>
     <nuxt-link to="/projects">View Projects</nuxt-link>
     <nuxt-link to="/contact">Contact Me</nuxt-link>
   </div>
@@ -119,7 +122,6 @@ export default {
 }
 
 .skill {
-  
   margin-bottom: 400px;
 }
 
@@ -141,7 +143,14 @@ export default {
   padding: 1px;
 }
 
-
+.project {
+  margin-bottom: 500px;
+}
+.project h1 {
+  border-bottom: 5px solid #b8e8de;
+  text-align: center;
+  padding: 10px;
+}
 
 
 </style>
