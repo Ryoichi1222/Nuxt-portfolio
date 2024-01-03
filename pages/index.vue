@@ -24,13 +24,12 @@
     </div>
     <div class="skill">
       <h1>SKILL</h1>
-      <img class="html" src="/HTML-LOGO.png">
-      <img class="css" src="/CSS-LOGO.png">
-      <img class="javascript" src="/javascript-logo.svg">
-      <br>
-      <img class="nuxt" src="/Nuxt_log.png">
-      <img class="ruby" src="/Ruby_logo.png">
-      <img class="rails" src="/Rails_Logo.png">
+      <div class="my-skill">
+      <p>HTML・CSS・JavaScript・Rubyが使えます。</p>
+      <p>フレームワークは、JavaScriptがNuxt.jsでRubyがRailsです。</p>
+      <p>このポートフォリオサイトもNuxt.jsで作りました。</p>
+      <p>GoやTypeScriptも習いたいです。</p>
+      </div>
     </div>
     <nuxt-link to="/projects">View Projects</nuxt-link>
     <nuxt-link to="/contact">Contact Me</nuxt-link>
@@ -120,39 +119,26 @@ export default {
 }
 
 .skill {
-  height: 400px;
-  text-align: center;
+  
+  margin-bottom: 400px;
 }
 
 .skill h1 {
-  line-height: 70px;
+  border-bottom: 5px solid #b8e8de;
+  text-align: center;
+  padding: 10px;
 }
 
-.skill img {
-  height: 30%;
+.my-skill {
+  display: flex;
+  flex-direction: column; /* 列に配置する */
+  align-items: center; /* 列を中央揃えにする */
 }
 
-.html {
-  padding-right: 60px;
-}
-
-.css {
-  padding-right: 60px;
-}
-
-.javascript {
-  padding-right: 60px;
-}
-.nuxt {
-  padding-right: 20px;
-}
-
-.ruby {
-  padding-right: 20px;
-}
-
-.rails {
-  padding-right: 20px;
+.my-skill p {
+  width: 40%;
+  margin: 10px;
+  padding: 1px;
 }
 
 
