@@ -37,7 +37,8 @@
       <nuxt-link to="/projects">Onther Projects</nuxt-link>
     </div>
     <div class="contact">
-       <nuxt-link to="/contact">Contact Me</nuxt-link>
+      <p>連絡はこちらから</p> 
+      <nuxt-link to="/contact">Contact Me</nuxt-link>
     </div>
   </div>
 </template>
