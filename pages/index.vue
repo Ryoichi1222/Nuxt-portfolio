@@ -33,8 +33,9 @@
     </div>
     <div class="project">
       <h1>Project</h1>
+      <p>まだ何もありません。</p>
+      <nuxt-link to="/projects">View Projects</nuxt-link>
     </div>
-    <nuxt-link to="/projects">View Projects</nuxt-link>
     <nuxt-link to="/contact">Contact Me</nuxt-link>
   </div>
 </template>
