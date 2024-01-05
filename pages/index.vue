@@ -40,6 +40,7 @@
       </div>
     </div>
     <div class="contact">
+      <h1>Contact</h1>
       <p>連絡はこちらから</p> 
       <nuxt-link to="/contact">Contact Me</nuxt-link>
     </div>
@@ -178,6 +179,16 @@ export default {
 
 .project-link a:hover {
   color: white;
+}
+
+.contact {
+  margin-bottom: 100px;
+}
+
+.contact h1 {
+  border-bottom: 5px solid #b8e8de;
+  text-align: center;
+  padding: 10px;
 }
 
 </style>
