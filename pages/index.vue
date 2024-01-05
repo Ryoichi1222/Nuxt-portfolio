@@ -34,8 +34,10 @@
     <div class="project">
       <h1>Project</h1>
       <p>まだ何もありません。</p>
+      <div class="project-link">
       <p>全ての作品はこちら</p>
       <nuxt-link to="/projects">ALL Projects</nuxt-link>
+      </div>
     </div>
     <div class="contact">
       <p>連絡はこちらから</p> 
@@ -157,8 +159,17 @@ export default {
   padding: 10px;
 }
 
+.project-link {
+ text-align: center;
+}
+
 .project a {
-  
+  text-decoration: none;
+  color: black;
+  line-height: 20px;
+  background-color: #b8e8de;
+  padding: 10px 5px 10px 5px;
+  margin-bottom: 20px;
 }
 
 </style>
