@@ -163,13 +163,21 @@ export default {
  text-align: center;
 }
 
-.project a {
+.project-link p {
+  padding-bottom: 20px
+}
+
+.project-link a {
   text-decoration: none;
   color: black;
   line-height: 20px;
   background-color: #b8e8de;
   padding: 10px 5px 10px 5px;
-  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.project-link a:hover {
+  color: white;
 }
 
 </style>
