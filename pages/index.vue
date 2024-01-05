@@ -34,7 +34,8 @@
     <div class="project">
       <h1>Project</h1>
       <p>まだ何もありません。</p>
-      <nuxt-link to="/projects">Onther Projects</nuxt-link>
+      <p>全ての作品はこちら</p>
+      <nuxt-link to="/projects">ALL Projects</nuxt-link>
     </div>
     <div class="contact">
       <p>連絡はこちらから</p> 
@@ -156,5 +157,8 @@ export default {
   padding: 10px;
 }
 
+.project a {
+  
+}
 
 </style>
