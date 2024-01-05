@@ -11,7 +11,7 @@
       <nuxt-link to="/projects">View Projects</nuxt-link>
     </div>
   </template>
-  
+    
   
   <script>
   export default {
