@@ -191,4 +191,12 @@ export default {
   padding: 10px;
 }
 
+.contact a {
+  text-decoration: none;
+  color: black;
+  line-height: 20px;
+  background-color: #b8e8de;
+  padding: 10px 5px 10px 5px;
+  border-radius: 10px;
+}
 </style>
