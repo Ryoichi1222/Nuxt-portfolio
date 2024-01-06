@@ -17,7 +17,7 @@
     </main>
 
     <footer>
-      <p>&copy; 2023 My Portfolio</p>
+      <p>&copy; 2023 Ryoichi Portfolio</p>
     </footer>
   </div>
 </template>
