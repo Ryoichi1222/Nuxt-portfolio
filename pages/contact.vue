@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Contact us</h1>
+    <h1>Contact us  </h1>
     <form action="https://ryoichi.form.newt.so/v1/7DDu99Gwd" method="post">
       <label for="name">Name</label>
       <input id="name" name="name">
