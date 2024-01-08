@@ -200,7 +200,7 @@ export default {
   padding: 10px 5px 10px 5px;
   border-radius: 10px;
   position: relative;
-  bottom: 20px;
+  top: 20px;
 }
 
 .contact a:hover {
