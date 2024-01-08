@@ -183,6 +183,7 @@ export default {
 
 .contact {
   margin-bottom: 100px;
+  text-align: center;
 }
 
 .contact h1 {
@@ -198,9 +199,11 @@ export default {
   background-color: #b8e8de;
   padding: 10px 5px 10px 5px;
   border-radius: 10px;
+  margin-bottom: 50px;
 }
 
 .contact a:hover {
   color: white;
 }
+
 </style>
