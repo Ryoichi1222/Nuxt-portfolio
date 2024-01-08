@@ -199,7 +199,8 @@ export default {
   background-color: #b8e8de;
   padding: 10px 5px 10px 5px;
   border-radius: 10px;
-  margin-bottom: 50px;
+  position: relative;
+  bottom: 20px;
 }
 
 .contact a:hover {
