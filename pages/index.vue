@@ -163,7 +163,7 @@ export default {
 .project-link {
  text-align: center;
  position: relative;
- 
+ top: 450px;
 }
 
 .project-link p {
