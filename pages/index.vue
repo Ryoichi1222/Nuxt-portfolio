@@ -191,7 +191,7 @@ export default {
 .contact h1 {
   border-bottom: 5px solid #b8e8de;
   text-align: center;
-  padding: 10px;
+  padding: 20px;
 }
 
 .contact a {
