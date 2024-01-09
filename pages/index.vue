@@ -184,7 +184,7 @@ export default {
 }
 
 .contact {
-  margin-bottom: 100px;
+  margin-bottom: 110px;
   text-align: center;
 }
 
