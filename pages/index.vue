@@ -30,10 +30,30 @@
       <p>GoやTypeScriptも習いたいです。</p>
       </div>
     </div>
-    <div class="project">
+    <div class="projects">
       <h1>Project</h1>
-      <p>まだ何もありません。</p>
-      <div class="project-link">
+      <div class="project-list">
+      <div class="project">
+            <img src="https://via.placeholder.com/300x200">
+            <h2>作品の名前</h2>
+            <p>作品1の説明文や特徴などをここに記述します。</p>
+            <a href="#">詳細を見る</a>
+        </div>
+        <div class="project">
+            <img src="https://via.placeholder.com/300x200">
+            <h2>作品の名前</h2>
+            <p>作品2の説明文や特徴などをここに記述します。</p>
+            <a href="#">詳細を見る</a>
+        </div>
+        <div class="project">
+            <img src="https://via.placeholder.com/300x200">
+            <h2>作品の名前</h2>
+            <p>作品3の説明文や特徴などをここに記述します。</p>
+            <a href="#">詳細を見る</a>
+        </div>
+         
+      </div>
+     <div class="project-link">
       <p>全ての作品はこちら</p>
       <nuxt-link to="/projects">ALL Projects</nuxt-link>
       </div>
@@ -143,26 +163,26 @@ export default {
   padding: 1px;
 }
 
-.project {
-  margin-bottom: 500px;
+.projects {
+  margin-bottom: 200px;
 }
-.project h1 {
+.projects h1 {
   border-bottom: 5px solid #b8e8de;
   text-align: center;
   padding: 10px;
 }
 
-.project-link {
+.projects-link {
  text-align: center;
  position: relative;
  top: 450px;
 }
 
 .project-link p {
-  padding-bottom: 20px
+  padding-bottom: 20px;
 }
 
-.project-link a {
+.projects-link a {
   text-decoration: none;
   color: black;
   line-height: 20px;
@@ -171,7 +191,24 @@ export default {
   border-radius: 10px;
 }
 
-.project-link a:hover {
+.project-list {
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px;
+    padding: 10px;
+}
+
+.project {
+    box-sizing: border-box;
+    width: 330px;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ddd; 
+    border-radius: 8px;
+}
+
+.projects-link a:hover {
   color: white;
 }
 
