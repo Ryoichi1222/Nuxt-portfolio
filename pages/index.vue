@@ -17,7 +17,6 @@
             <div class="sns-icon">
             <a href="https://twitter.com/Ryo211222"><img class="x-icon" src="/X-icon.png"></a>
             <a href="https://github.com/RyoichiKami"><img class="github-icon" src="/github-mark.png"></a>
-            <a href="https://discord.gg/cv6bKDyV"><img class="discord-icon" src="/Discord-icon.png"></a>
           </div>
           </div>  
       </div>
@@ -121,13 +120,6 @@ export default {
   left: 10px;
 }
 
-.discord-icon {
-  width: 9%; /*画像サイズ指定*/
-  margin: 0;
-  padding: 0;
-  position: relative;
-  left: 30px;
-}
 
 .skill {
   margin-bottom: 50px;
