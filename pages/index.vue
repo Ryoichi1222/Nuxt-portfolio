@@ -172,9 +172,8 @@ export default {
   padding: 10px;
 }
 
-.projects-link {
+.project-link {
  text-align: center;
- position: relative;
  top: 450px;
 }
 
@@ -185,10 +184,6 @@ export default {
 .projects-link a {
   text-decoration: none;
   color: black;
-  line-height: 20px;
-  background-color: #b8e8de;
-  padding: 10px 5px 10px 5px;
-  border-radius: 10px;
 }
 
 .project-list {
@@ -208,7 +203,7 @@ export default {
     border-radius: 8px;
 }
 
-.projects-link a:hover {
+.project-link a:hover {
   color: white;
 }
 
